@@ -1,3 +1,5 @@
+package BaseTest;
+
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -5,7 +7,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 
-abstract class baseTest { // базовый класс!
+public abstract class baseTest { // базовый класс!
 
     /* настройка окружения */
     public void setUp(){
